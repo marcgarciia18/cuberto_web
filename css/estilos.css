@@ -1,0 +1,45 @@
+.estructura {
+    display: flex;
+}
+
+.cabecera {
+    width: 100%;
+    font-size:30px;
+}
+
+.tcabecera{
+    color: cadetblue;
+    }
+
+.sec1{
+    width: 50%;
+    background-color: #F5EEF5;
+    padding: 40px;
+    font-size: 30px;
+    }
+
+
+.sec2{
+    width: 50%;
+    background-color: #f3f5f3;
+    padding: 40px;
+    font-size: 30px;
+    }
+
+.sec3{
+    width: 50%;
+    background-color: #f2f9f8;
+    padding: 40px;
+    font-size: 30px;
+    }
+
+.pie{
+    width: 25%;
+    padding: 40px;
+    font-size: 30px;
+    }
+
+.cabpie{
+    width: 100%;
+    font-size: 30px;
+}
