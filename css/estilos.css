@@ -37,9 +37,36 @@
     width: 25%;
     padding: 40px;
     font-size: 30px;
+    background-color: black;
+    color: white;
     }
 
 .cabpie{
     width: 100%;
     font-size: 30px;
+    background-color: black;
+    color: white;
 }
+
+body{
+    padding: 40px;
+    font-family: Calibri, sans-serif;
+    }
+
+img{
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+
+@media screen and (max-width: 600px) {
+    .estructura {
+        flex-direction: column;
+    }
+    .sec1, .sec2, .sec3, .cabpie, .pie{
+        width: 100%;
+        font-size: 24px;
+        padding: 20px;
+        }
+      }
